@@ -343,3 +343,18 @@
 {"level":"info","message":"Connected to mongodb://localhost/movie_reviews...","timestamp":"2019-08-26T03:13:51.298Z"}
 {"level":"info","message":"Listening on port 3900...","timestamp":"2019-08-26T05:23:30.364Z"}
 {"level":"info","message":"Connected to mongodb://localhost/movie_reviews...","timestamp":"2019-08-26T05:23:32.381Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2019-08-26T05:56:23.976Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2019-08-26T06:03:46.334Z"}
+{"level":"info","message":"Connected to mongodb://user1:123456!@vidly-shard-00-00-sekqw.mongodb.net:27017,vidly-shard-00-01-sekqw.mongodb.net:27017,vidly-shard-00-02-sekqw.mongodb.net:27017/test?ssl=true&replicaSet=vidly-shard-0&authSource=admin&retryWrites=true&w=majority...","timestamp":"2019-08-26T06:03:48.711Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2019-08-26T06:12:51.763Z"}
+{"level":"info","message":"Connected to mongodb://user1:123456!@vidly-shard-00-00-sekqw.mongodb.net:27017,vidly-shard-00-01-sekqw.mongodb.net:27017,vidly-shard-00-02-sekqw.mongodb.net:27017/movie_reviews?ssl=true&replicaSet=vidly-shard-0&authSource=admin&retryWrites=true&w=majority...","timestamp":"2019-08-26T06:12:54.418Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2019-08-26T06:15:11.054Z"}
+{"level":"info","message":"Connected to mongodb://user1:123456!@vidly-shard-00-00-sekqw.mongodb.net:27017,vidly-shard-00-01-sekqw.mongodb.net:27017,vidly-shard-00-02-sekqw.mongodb.net:27017/movie_reviews?ssl=true&replicaSet=vidly-shard-0&authSource=admin&retryWrites=true&w=majority...","timestamp":"2019-08-26T06:15:13.456Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2019-08-26T07:02:15.783Z"}
+{"level":"info","message":"Connected to mongodb+srv://user1:123456!@vidly-sekqw.mongodb.net/test?retryWrites=true&w=majority...","timestamp":"2019-08-26T07:02:16.905Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2019-08-26T07:03:37.478Z"}
+{"level":"info","message":"Connected to mongodb+srv://user1:123456!@vidly-sekqw.mongodb.net/test?retryWrites=true&w=majority...","timestamp":"2019-08-26T07:03:38.585Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2019-08-26T07:03:55.498Z"}
+{"level":"info","message":"Connected to mongodb+srv://user1:123456!@vidly-sekqw.mongodb.net/test?retryWrites=true&w=majority...","timestamp":"2019-08-26T07:03:56.778Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2019-08-26T07:05:18.556Z"}
+{"level":"info","message":"Connected to mongodb://user1:123456!@vidly-shard-00-00-sekqw.mongodb.net:27017,vidly-shard-00-01-sekqw.mongodb.net:27017,vidly-shard-00-02-sekqw.mongodb.net:27017/test?ssl=true&replicaSet=vidly-shard-0&authSource=admin&retryWrites=true&w=majority...","timestamp":"2019-08-26T07:05:20.927Z"}
