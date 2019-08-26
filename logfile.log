@@ -341,3 +341,5 @@
 {"level":"info","message":"Connected to mongodb://localhost/movie_reviews...","timestamp":"2019-08-26T02:27:32.176Z"}
 {"level":"info","message":"Listening on port 3900...","timestamp":"2019-08-26T03:13:49.276Z"}
 {"level":"info","message":"Connected to mongodb://localhost/movie_reviews...","timestamp":"2019-08-26T03:13:51.298Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2019-08-26T05:23:30.364Z"}
+{"level":"info","message":"Connected to mongodb://localhost/movie_reviews...","timestamp":"2019-08-26T05:23:32.381Z"}
