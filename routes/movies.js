@@ -16,13 +16,16 @@ router.get('/', async (req, res) => {
 router.get('/best', async (req, res) => {
   let year = moment().format('YYYY');
   let month = moment().format('MM');
+  let day = moment()
+    .endOf('month')
+    .format('DD');
 
   const movies = await Movie.aggregate([
     {
       $match: {
         release_date: {
           $gte: new Date(year + '-' + month + '-01T00:00:00.000Z'),
-          $lt: new Date(year + '-' + month + '-31T00:00:00.000Z')
+          $lt: new Date(year + '-' + month + '-' + day + 'T00:00:00.000Z')
         }
       }
     },
@@ -53,13 +56,16 @@ router.get('/best', async (req, res) => {
 router.get('/best_views', async (req, res) => {
   let year = moment().format('YYYY');
   let month = moment().format('MM');
+  let day = moment()
+    .endOf('month')
+    .format('DD');
 
   const movies = await Movie.aggregate([
     {
       $match: {
         release_date: {
           $gte: new Date(year + '-' + month + '-01T00:00:00.000Z'),
-          $lt: new Date(year + '-' + month + '-31T00:00:00.000Z')
+          $lt: new Date(year + '-' + month + '-' + day + 'T00:00:00.000Z')
         }
       }
     },
@@ -91,13 +97,15 @@ router.get('/best_views', async (req, res) => {
 router.get('/best_recent', async (req, res) => {
   let year = moment().format('YYYY');
   let month = moment().format('MM');
-
+  let day = moment()
+    .endOf('month')
+    .format('DD');
   const movies = await Movie.aggregate([
     {
       $match: {
         release_date: {
           $gte: new Date(year + '-' + month + '-01T00:00:00.000Z'),
-          $lt: new Date(year + '-' + month + '-31T00:00:00.000Z')
+          $lt: new Date(year + '-' + month + '-' + day + 'T00:00:00.000Z')
         }
       }
     },
